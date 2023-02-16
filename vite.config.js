@@ -9,6 +9,8 @@ export default defineConfig({
                 'resources/css/app.css', // <-- This is the default (Tailwind CSS used in Auth Views)
                 'resources/scss/app.scss',
                 'resources/js/app.js',
+                'resources/js/enable_tooltip_popover.js',
+                'resources/js/enable_select2.js',
             ],
             refresh: true,
         }),

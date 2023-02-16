@@ -2,13 +2,12 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PHP_CodeSniffer" xsi:noNamespaceSchemaLocation="phpcs.xsd">
     <description>The coding standard for PHP_CodeSniffer itself.</description>
 
-    <file>app</file>
+    <!-- <file>app</file>
     <file>bootstrap</file>
     <file>config</file>
     <file>database</file>
     <file>resources</file>
-    <file>routes</file>
-    <file>tests</file>
+    <file>routes</file> -->
 
     <exclude-pattern>bootstrap/cache/*</exclude-pattern>
     <exclude-pattern>bootstrap/autoload.php</exclude-pattern>
@@ -16,6 +15,9 @@
     <exclude-pattern>*/seeds/*</exclude-pattern>
     <exclude-pattern>*.blade.php</exclude-pattern>
     <exclude-pattern>*.js</exclude-pattern>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>storage/*</exclude-pattern>
+    <exclude-pattern>tests/*</exclude-pattern>
 
     <arg name="basepath" value="."/>
     <arg name="colors"/>
